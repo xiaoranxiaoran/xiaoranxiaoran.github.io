@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<main class="profile-shell profile-subpage" id="profile-main">
+  <article>
+    <a class="profile-secondary profile-back" href="{{ '/projects/' | relative_url }}"><span aria-hidden="true">←</span> 全部项目</a>
+    <header class="profile-page-head">
+      <p class="profile-kicker">{{ page.kind }} · {{ page.period }}</p>
+      <h1>{{ page.title }}</h1>
+      <p class="profile-intro">{{ page.summary }}</p>
+      {% include project-stack.html stack=page.stack %}
+    </header>
+    <div class="profile-prose">
+      {{ content }}
+    </div>
+  </article>
+</main>

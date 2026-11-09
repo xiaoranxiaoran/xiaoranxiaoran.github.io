@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" width="520" height="340">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0v24" fill="none" stroke="#44685f" stroke-opacity=".45"/>
+    </pattern>
+  </defs>
+  <rect width="520" height="340" rx="20" fill="#163833"/>
+  <rect width="520" height="340" rx="20" fill="url(#grid)"/>
+  <path d="M30 64h460M30 284h460" stroke="#527569"/>
+  <g font-family="Consolas, Menlo, monospace" font-size="15" fill="#c9dbd3">
+    <text x="30" y="44">SYSTEM MAP / 01</text>
+    <text x="490" y="44" text-anchor="end">BOOKING FLOW</text>
+    <text x="30" y="315">SPRING BOOT / MYBATIS-PLUS</text>
+  </g>
+  <g fill="none" stroke="#a8d6a1" stroke-width="2">
+    <path d="M160 169h28m-6-6 6 6-6 6M330 169h28m-6-6 6 6-6 6M260 216v21"/>
+  </g>
+  <rect x="30" y="127" width="130" height="84" rx="10" fill="#244940" stroke="#6d9989"/>
+  <rect x="190" y="120" width="140" height="98" rx="10" fill="#d5edac"/>
+  <rect x="360" y="127" width="130" height="84" rx="10" fill="#244940" stroke="#6d9989"/>
+  <g font-family="Consolas, Menlo, monospace" text-anchor="middle">
+    <g font-size="13">
+      <text x="95" y="156" fill="#b1cec2">REQUEST</text>
+      <text x="260" y="153" fill="#436443">VALIDATE</text>
+      <text x="425" y="156" fill="#b1cec2">PERSIST</text>
+    </g>
+    <g font-size="18" font-weight="700">
+      <text x="95" y="185" fill="#f1f8f1">API</text>
+      <text x="260" y="183" fill="#18372c">Quota</text>
+      <text x="425" y="185" fill="#f1f8f1">Database</text>
+    </g>
+    <rect x="156" y="237" width="208" height="27" rx="13.5" fill="#244940" stroke="#6d9989"/>
+    <text x="260" y="255" font-size="13" fill="#e1ede3">Transaction + Lock</text>
+  </g>
+</svg>

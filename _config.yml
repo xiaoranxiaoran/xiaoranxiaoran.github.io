@@ -1,0 +1,62 @@
+locale: zh-CN
+site_theme: default
+title: 李屹然
+title_separator: "·"
+name: 李屹然
+description: 李屹然的个人主页，记录 Java 后端开发、大数据分析与软件测试项目。
+url: ""
+baseurl: ""
+repository:
+
+author:
+  name: 李屹然
+  github:
+  email: # 可填入愿意公开的邮箱
+
+og_image: booking-flow.svg
+atom_feed:
+  hide: true
+
+include:
+  - _pages
+exclude:
+  - AGENTS.md
+  - Dockerfile
+  - docker-compose.yaml
+  - _config_docker.yml
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - node_modules
+  - vendor
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/theme.js
+
+encoding: utf-8
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+collections:
+  portfolio:
+    output: true
+    permalink: /projects/:path/
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+timezone: Asia/Shanghai
+plugins:
+  - jekyll-sitemap
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  ignore:
+    envs: development
