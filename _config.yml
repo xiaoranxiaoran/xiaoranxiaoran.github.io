@@ -1,20 +1,20 @@
-locale: zh-CN
+locale: en-US
 site_theme: default
-title: 李屹然
+title: Yiran Li
 title_separator: "·"
-name: 李屹然
-description: 李屹然的个人主页，记录 Java 后端开发、大数据分析与软件测试项目。
+name: Yiran Li
+description: Academic homepage of Yiran Li, a graduate student at Wuhan University of Technology interested in software quality and trustworthy AI.
 url: ""
 baseurl: ""
 repository:
 
 author:
-  name: 李屹然
+  name: Yiran Li
   avatar: profile-avatar.svg
-  bio: Yiran Li · 软件工程
-  employer: 武汉东湖学院
+  bio: Graduate Student
+  employer: Wuhan University of Technology
   github:
-  email: # 可填入愿意公开的邮箱
+  email: # Optional public email address
 
 og_image: profile-avatar.svg
 atom_feed:

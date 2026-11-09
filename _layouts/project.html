@@ -4,8 +4,8 @@ layout: single
 
 <p>{{ page.kind }} · {{ page.period }}</p>
 <p>{{ page.summary }}</p>
-<p><strong>技术栈</strong>　{{ page.stack | join: '、' }}</p>
+<p><strong>Technologies:</strong> {{ page.stack | join: ', ' }}</p>
 
 {{ content }}
 
-<p><a href="{{ '/projects/' | relative_url }}">← 返回项目经历</a></p>
+<p><a href="{{ '/projects/' | relative_url }}">← Back to projects</a></p>

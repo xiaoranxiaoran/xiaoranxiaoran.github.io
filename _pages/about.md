@@ -1,33 +1,35 @@
 ---
 layout: single
 author_profile: true
-title: 关于我
+title: About Me
 permalink: /
-excerpt: 李屹然的个人主页。武汉东湖学院软件工程本科，关注软件质量与人工智能可信安全。
+excerpt: Yiran Li is a graduate student at Wuhan University of Technology with a background in software engineering.
 ---
 
-我毕业于武汉东湖学院软件工程专业，主要使用 Java 和 Python。项目经历包括高校学术讲座预约系统的后端开发，以及基于 Hadoop 的用户行为数据分析。
+I am a graduate student at Wuhan University of Technology. I earned my undergraduate degree in software engineering at Wuhan Donghu University and primarily work with Java and Python.
 
-我对软件质量与人工智能可信安全感兴趣，希望在后续学习中探索如何评估 AI 系统的可靠性与安全性。
+My project experience includes developing the backend for a university lecture booking system and analyzing user behavior data with Hadoop.
 
-## 教育背景
+## Education
 
-- **武汉东湖学院**<br>
-  软件工程，本科 · 2024 年 9 月至 2026 年 6 月
+- **Wuhan University of Technology**<br>
+  Graduate Student (current)
+- **Wuhan Donghu University**<br>
+  Undergraduate Degree in Software Engineering · Sep 2024–Jun 2026
 
-## 荣誉与资格
+## Honors and Qualifications
 
-- **优秀毕业生**，2026 年
-- **湖北“工匠杯”软件测试大赛省级三等奖**，2023 年
-- 中级软件设计师、高级软件测试员、大学英语四级（CET-4）
+- **Outstanding Graduate**, 2026
+- **Third Prize (Provincial Level), Hubei Craftsman Cup Software Testing Competition**, 2023
+- Software Designer (Intermediate Level), Software Tester (Advanced Level), and College English Test Band 4 (CET-4)
 
-## 关注方向
+## Interests
 
-- **软件质量与性能**：并发业务中的数据一致性、功能与安全测试、SQL 查询和接口性能优化。
-- **人工智能可信安全**：AI 系统的可靠性与安全性评估。
+- **Software quality and performance** — Data consistency under concurrency, functional and security testing, and SQL and API performance.
+- **Trustworthy AI** — Evaluating the reliability and safety of AI systems.
 
-## 项目经历
+## Projects
 
 {% include project-list.html %}
 
-[查看完整履历]({{ '/cv/' | relative_url }})
+[View my CV]({{ '/cv/' | relative_url }})

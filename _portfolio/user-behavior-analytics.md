@@ -1,22 +1,22 @@
 ---
-title: 用户行为数据分析
+title: User Behavior Analytics
 layout: project
 permalink: /projects/user-behavior-analytics/
 order: 2
-kind: 大数据实践
-period: 2024.06–2024.09
-summary: 在 Linux 环境部署 Hadoop 数据处理栈，使用 Shell 和 HiveQL 完成数据清洗与多维度分析。
+kind: Distributed Data Processing
+period: Jun 2024–Sep 2024
+summary: Deployed a Hadoop data processing stack on Linux and used shell scripts and HiveQL to clean and analyze user behavior data.
 stack: [Linux, Hadoop, Hive, HBase, Shell, MySQL]
 ---
 
-## 集群部署与联调
+## Cluster Deployment and Integration
 
-参与 Hadoop 分布式集群、Hive 数据仓库和 HBase 列式数据库的部署、配置与联调，为用户行为数据提供分布式存储和计算环境。
+I helped deploy, configure, and integrate a Hadoop cluster, a Hive data warehouse, and an HBase database to support distributed storage and processing of user behavior data.
 
-## 数据清洗与跨系统交换
+## Data Cleaning and Exchange
 
-使用 Shell 脚本对原始数据去重、补全字段和统一格式，完成 Hive 与 MySQL、HBase 之间的数据互导。
+I used shell scripts to deduplicate records, fill missing fields, and standardize formats. I also transferred data between Hive, MySQL, and HBase.
 
-## 分析维度
+## Analysis
 
-使用 HiveQL 分析用户行为转化、商品销量排行和活跃用户趋势，从行为、商品和时间维度观察数据。
+I used HiveQL to analyze user conversion, rank products by sales, and track active-user trends over time.

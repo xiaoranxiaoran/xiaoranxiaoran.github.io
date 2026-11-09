@@ -1,11 +1,11 @@
 ---
 layout: single
 author_profile: true
-title: 项目经历
+title: Projects
 permalink: /projects/
-excerpt: 李屹然的 Java 后端开发与大数据分析项目。
+excerpt: Selected projects in Java backend development and distributed data processing.
 ---
 
-以下两个项目分别涉及 Web 后端开发与分布式数据处理。
+These projects cover web backend development and distributed data processing.
 
 {% include project-list.html %}
