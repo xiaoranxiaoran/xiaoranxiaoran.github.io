@@ -1,16 +1,12 @@
+<ul>
 {% assign projects = site.portfolio | sort: "order" %}
-{% assign heading = include.heading | default: "h2" %}
-<ol class="profile-projects">
-  {% for project in projects %}
-  <li class="profile-project">
-    <span class="profile-index" aria-hidden="true">{{ forloop.index | prepend: "0" }}</span>
-    <div>
-      <p class="profile-kicker">{{ project.kind }} · {{ project.period }}</p>
-      <{{ heading }}><a href="{{ project.url | relative_url }}">{{ project.title }}</a></{{ heading }}>
-      <p class="profile-project-summary">{{ project.summary }}</p>
-      {% include project-stack.html stack=project.stack %}
-    </div>
-    <a class="profile-project-link" href="{{ project.url | relative_url }}" aria-label="查看{{ project.title }}">查看详情 <span aria-hidden="true">↗</span></a>
+{% for project in projects %}
+  <li>
+    <p>
+      <strong><a href="{{ project.url | relative_url }}">{{ project.title }}</a></strong><br>
+      {{ project.kind }} · {{ project.period }}<br>
+      {{ project.summary }}
+    </p>
   </li>
-  {% endfor %}
-</ol>
+{% endfor %}
+</ul>

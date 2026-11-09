@@ -1,10 +1,9 @@
 ---
-layout: profile-page
+layout: single
+author_profile: true
 title: 个人履历
 permalink: /cv/
 excerpt: 李屹然的教育背景、专业技能、项目经历、资格证书与荣誉。
-label: CURRICULUM VITAE
-subtitle: 李屹然 · 软件工程本科
 ---
 
 ## 教育背景

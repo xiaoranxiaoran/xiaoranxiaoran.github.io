@@ -10,10 +10,13 @@ repository:
 
 author:
   name: 李屹然
+  avatar: profile-avatar.svg
+  bio: Yiran Li · 软件工程
+  employer: 武汉东湖学院
   github:
   email: # 可填入愿意公开的邮箱
 
-og_image: booking-flow.svg
+og_image: profile-avatar.svg
 atom_feed:
   hide: true
 
@@ -46,6 +49,13 @@ collections:
   portfolio:
     output: true
     permalink: /projects/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      author_profile: true
 
 sass:
   sass_dir: _sass

@@ -294,6 +294,7 @@ zh: &DEFAULT_ZH
   more_label                 : "了解更多"
   related_label              : "你可能感兴趣的"
   follow_label               : "关注："
+  contact_label              : "联系方式"
   feed_label                 : "打赏"
   powered_by                 : "技术支持："
   website_label              : "网站"

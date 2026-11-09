@@ -12,8 +12,7 @@
 | 教育背景、技能与荣誉 | `_pages/cv.md` |
 | 项目介绍、技术栈、展示顺序 | `_portfolio/` |
 | 顶部导航 | `_data/navigation.yml` |
-| 站点名称、可公开的邮箱 | `_config.yml` |
-| 主页样式 | `assets/css/profile.css` |
+| 站点名称、侧栏资料、可公开的邮箱 | `_config.yml` |
 
 如需公开邮箱，可填写 `_config.yml` 中的 `author.email`。站点地址与 GitHub 账号由部署工作流根据仓库自动填写。
 
