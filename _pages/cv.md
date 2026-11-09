@@ -9,7 +9,8 @@ excerpt: Education, technical skills, projects, and honors of Yiran Li.
 ## Education
 
 **Wuhan University of Technology**<br>
-Graduate Student (current)
+School of Artificial Intelligence<br>
+Graduate Student, September 2026 – Present
 
 **Wuhan Donghu University**<br>
 Undergraduate Degree in Software Engineering · Sep 2024–Jun 2026
