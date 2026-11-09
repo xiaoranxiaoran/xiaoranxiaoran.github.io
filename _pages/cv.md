@@ -1,17 +1,12 @@
 ---
-layout: default
+layout: profile-page
 title: 个人履历
 permalink: /cv/
 excerpt: 李屹然的教育背景、专业技能、项目经历、资格证书与荣誉。
+label: CURRICULUM VITAE
+subtitle: 李屹然 · 软件工程本科
 ---
 
-<main class="profile-shell profile-subpage" id="profile-main">
-  <header class="profile-page-head">
-    <p class="profile-kicker">CURRICULUM VITAE</p>
-    <h1>个人履历</h1>
-    <p class="profile-intro">李屹然 · 软件工程本科</p>
-  </header>
-  <div class="profile-prose" markdown="1">
 ## 教育背景
 
 **武汉东湖学院 · 软件工程（本科）** · 2024.09–2026.06
@@ -47,5 +42,3 @@ excerpt: 李屹然的教育背景、专业技能、项目经历、资格证书�
 - [GitHub](https://github.com/{{ site.author.github }})
 {% endif %}
 {% endif %}
-  </div>
-</main>
